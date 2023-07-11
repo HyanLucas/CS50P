@@ -1,1 +1,2 @@
-print(str(input("Enter your text: ")).lower())
+indoor = str(input()).lower()
+print(indoor)

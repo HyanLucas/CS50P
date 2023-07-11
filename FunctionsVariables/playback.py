@@ -1,1 +1,2 @@
-print(str(input("Enter something: ").replace(" ", "...")))
+playback = str(input()).replace(" ", "...")
+print(playback)
