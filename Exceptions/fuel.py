@@ -3,7 +3,6 @@ def main():
 
 
 def gauge_calculate():
-    values = []
     while True:
         gauge = str(input("Fraction: "))
         try:
