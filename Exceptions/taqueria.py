@@ -6,7 +6,6 @@ def main():
             total += item_value(item)
             print(f"Total: ${total:.2f}")
         except EOFError:
-            print()
             break
 
 
