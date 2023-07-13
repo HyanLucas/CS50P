@@ -9,7 +9,7 @@ def gauge_calculate():
         try:
             value1, value2 = gauge.split("/")
             value1, value2 = int(value1), int(value2)
-        except (ValueError):
+        except ValueError:
             pass
         if value1 > value2:
             pass
