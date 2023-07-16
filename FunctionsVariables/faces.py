@@ -1,5 +1,5 @@
 def convert(faces: str):
-    faces = faces.replace(":)", '🙂') and faces.replace(":(", '🙁')
+    faces = faces.replace(":)", "🙂") and faces.replace(":(", "🙁")
     return faces
 
 

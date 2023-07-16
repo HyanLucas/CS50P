@@ -6,8 +6,8 @@ def main():
 def snake_case_maker(camelCase):
     snake_case = ""
     for letter in camelCase:
-        if (letter.isupper()):
-            if (len(snake_case) > 0):
+        if letter.isupper():
+            if len(snake_case) > 0:
                 snake_case += "_" + letter.lower()
         else:
             snake_case += letter

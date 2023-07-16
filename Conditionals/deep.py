@@ -1,6 +1,9 @@
 def main():
-    result = str(input(
-        "What is the Answer to the Great Question of Life, the Universe, and Everything? "))
+    result = str(
+        input(
+            "What is the Answer to the Great Question of Life, the Universe, and Everything? "
+        )
+    )
     print(answer(result))
 
 

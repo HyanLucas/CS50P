@@ -8,7 +8,7 @@ def main():
 
 def is_valid(plate):
     if len(plate) <= 6 and len(plate) > 2:
-        if (plate[0].isalpha() and plate[1].isalpha()):
+        if plate[0].isalpha() and plate[1].isalpha():
             cont_number = 0
             zero_first = False
             letter_after_number = False
