@@ -13,5 +13,5 @@ while True:
             print("Adieu, adieu, to", names, "and", last_name)
             break
         if len(names) == 1:
-            print("Adieu, adieu, to", names)
+            print("Adieu, adieu, to", names[0])
             break
