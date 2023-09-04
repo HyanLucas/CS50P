@@ -14,7 +14,7 @@ elif len(sys.argv) == 3:
 
         try:
             figlet.setFont(font=sys.argv[2])
-        except:
+        excep:
             sys.exit("Invalid usage")
         answer = str(input("Input: "))
         print("Output:", figlet.renderText(answer), sep="\n")
