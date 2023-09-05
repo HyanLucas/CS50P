@@ -1,4 +1,3 @@
-import json
 import requests
 import sys
 
@@ -9,8 +8,8 @@ def main():
             response = requests.get("https://blockchain.info/ticker")
             data = {}
             data = response.json()
-            bitcoin_USD_value_15m = data["USD"]["15m"]
-            print("$", bitcoin_USD_value_15m*int(sys.argv[1]), sep="")
+            bitcoin_usd_value_15m = data["USD"]["15m"]
+            print("$", bitcoin_usd_value_15m*float(sys.argv[1]), sep="")
         except ValueError:
             print("Command-line argument is not a number")
     elif len(sys.argv) > 2:
